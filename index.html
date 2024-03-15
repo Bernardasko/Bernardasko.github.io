@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- AOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="home" class="header">
+      <!-- Navigation -->
+      <nav class="nav">
+        <div class="navigation container">
+          <div class="logo">
+            <h1>Portfolio<span>.</span></h1>
+          </div>
+
+          <div class="menu">
+            <div class="top-nav">
+              <div class="logo">
+                <h1>Portfolio<span>.</span></h1>
+              </div>
+              <div class="close">
+                <i class="fas fa-times"></i>
+              </div>
+            </div>
+
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="nav-link scroll-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link scroll-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#skills" class="nav-link scroll-link">Skills</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#contact" class="nav-link scroll-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <div class="hero">
+          <h3>Hi, my name is</h3>
+          <h1><span id="type1"></span></h1>
+          <h4>I'm a JavaScript Developer with a passion to learn.</h4>
+          <a href="cv.pdf" target="_blank" class="btn">Resume</a>
+        </div>
+        <div class="icons">
+          <!-- <span><i class="fab fa-linkedin"></i></span> -->
+          <span onclick="window.location.href='https://github.com/Bernardasko'"><i class="fab fa-github"></i></span>
+        </div>
+    </header>
+    <!-- Projects -->
+    <section class="section theme" id="projects">
+        <div class="title">
+          <h1>My Projects</h1>
+        </div>
+  
+        <div class="services-center container">
+          <div id="myModal3" class="modal">
+            <div class="modal-content">
+              <span class="close3">&times;</span>
+              <img id="gif-click" src="images/Api.gif" />
+            </div>
+          </div>
+          <div id="myModal0" class="modal">
+            <div class="modal-content">
+              <span class="close0">&times;</span>
+              <img id="gif-click" src="images/.gif" />
+            </div>
+          </div>
+          <div id="myModal1" class="modal">
+            <div class="modal-content">
+              <span class="close1">&times;</span>
+              <img id="gif-click" src="images/.gif" />
+            </div>
+          </div>
+          <div id="myModal2" class="modal">
+            <div class="modal-content">
+              <span class="close2">&times;</span>
+              <img id="gif-click" src="images/.gif" />
+            </div>
+          </div>
+  
+          <div class="service" data-aos="fade-down" data-aos-duration="2000">
+            <h2>PayAPI</h2>
+            <p>
+                A 'PayAPI' app with 4 pages: Home, Pricing, About, and Contact, created by a group of students using <strong>HTML, CSS, SASS/SCSS</strong> and <strong>JavaScript</strong>
+            </p>
+            <button id="myBtn3" class="button">Demo</button>
+            <button class="button" onclick="document.location='https://github.com/Seven-Apuok/Ziemos_kodas'">Source Code</button>
+            <button class="button" onclick="document.location='https://ziemos-kodas.vercel.app/'">Live</button>
+          </div>
+  
+          <div class="service" data-aos="fade-up" data-aos-duration="2000">
+            <h2></h2>
+            <p>
+               <strong></strong>         
+            </p>
+            <button id="myBtn0" class="button">Demo</button>
+            <button class="button" onclick="document.location='https://github.com/Bernardasko'">Source Code</button>
+            <button class="button" onclick="document.location='https://'">Live</button>
+          </div>
+  
+          <div class="service" data-aos="fade-down" data-aos-duration="2000">
+            <h2></h2>
+            <p>
+              
+            </p>
+            <button id="myBtn1" class="button">Demo</button>
+            <button class="button" onclick="document.location='https://github.com/Bernardasko'">Source Code</button>
+            <button class="button" onclick="document.location='https://'">Live</button>
+          </div>
+  
+          <div class="service" data-aos="fade-up" data-aos-duration="2000">
+            <h2></h2>
+            <p>
+              
+            </p>
+            <button id="myBtn2" class="button">Demo</button>
+            <button class="button" onclick="document.location='https://github.com/Bernardasko'">Source Code</button>
+            <button class="button" onclick="document.location='https://'">Live</button>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <div class="title">
+          <h1>My Skills</h1>
+        </div>
+        <div class="skillicons">
+          <div class="main skills-left" data-aos="fade-right" data-aos-duration="2000">
+            <span><i class="fab fa-html5"></i></span>
+            <span><i class="fab fa-css3-alt"></i></span>
+            <span><i class="fab fa-node"></i></span>
+          </div>
+          <div class="secondary right"data-aos="fade-left" data-aos-duration="2000">
+            <span><i class="fab fa-js-square"></i></span>
+            <span><i class="fab fa-react"></i></span>
+            
+          </div>
+        </div>
+      </section>
+  
+      <!-- Contact -->
+      <section class="section theme" id="contact">
+        <div class="title">
+          <h1>Contact me</h1>
+        </div>
+  
+        <div class="contact-center container">
+          <div class="left" data-aos="fade-down-right" data-aos-duration="2000">
+            <h2>Let's Get in Touch</h2>
+            <div>
+              <span class="icon"><i class="fas fa-user"></i></span>
+              <span class="content">
+                <h3>Name</h3>
+                <span>Bernardas Kondratavičius</span>
+              </span>
+            </div>
+            <div>
+              <span class="icon github" onclick="window.location.href='https://github.com/Bernardasko'"><i class="fab fa-github"></i></span>
+              <span class="content">
+                <h3>GitHub</h3>
+                <span>Bernardasko</span>
+              </span>
+            </div>
+  
+            <div>
+              <span class="icon"><i class="fas fa-envelope"></i></span>
+              <span class="content">
+                <h3>Email</h3>
+                <span>bernardasko@gmail.com</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p>Portfolio Website</p>
+      </footer>
+  
+      <!-- AOS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+      <!-- Typeit -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+      <!-- GSAP -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+      <!-- Custom Script -->
+      <script src="index.js"></script>
+  </body>
+</html>
