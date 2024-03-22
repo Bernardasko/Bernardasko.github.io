@@ -105,7 +105,7 @@ li {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: /*rgb(136, 134, 146)*/ #05dd10;
+  background-color: /*rgb(136, 134, 146)*/ #024B05;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   z-index: 999;
 }
@@ -144,7 +144,7 @@ li {
 
 .nav-link:hover {
   border-radius: 0.3rem;
-  background-color: #05dd10;
+  background-color: #9dbe38;
 }
 
 .top-nav {
@@ -258,7 +258,7 @@ li {
   display: inline-block;
   padding: 0.8rem 2.5rem;
   border: 1px solid #05dd10;
-  background-color: #05dd10;
+  background-color: #024B05;
   color: #fff;
   margin-top: 2rem;
 }
@@ -431,8 +431,8 @@ a.btn:active,
 }
 
 .service {
-  color: #fff;
-  background-color: #4f5c50;
+  color: #FFFFFF;
+  background-color: #024B05;
   padding: 1rem;
   text-align: center;
   border-radius: 1rem;
@@ -455,11 +455,12 @@ a.btn:active,
 }
 
 .service p strong {
-  color: #888;
+  color: #FFFFFF;
 }
 
 .service:hover {
-  background-color: #05dd10;
+  background-color: #001401;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .service:hover span {
@@ -593,7 +594,7 @@ a.btn:active,
 .left .icon {
   margin-right: 2rem;
   font-size: 2.3rem;
-  color: #05dd10;
+  color: #024B05;
 }
 
 .github:hover {
