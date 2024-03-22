@@ -249,7 +249,7 @@ li {
   font-size: 2.5rem;
 }
 .hero h1 span {
-  color: #05dd10;
+  color: #9DC43B;
   text-decoration: underline;
 }
 
@@ -360,7 +360,7 @@ li {
   left: 50%;
   bottom: -20%;
   transform: translate(-50%, -50%);
-  background-color: #05dd10;
+  background-color: #9DC43B;
   width: 50%;
   height: 0.4rem;
   z-index: 1;
