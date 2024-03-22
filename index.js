@@ -61,7 +61,7 @@ new TypeIt("#type1", {
   waitUntilVisible: true,
 })
   .pause(2500)
-  .type("Bernardas Kondratavičius", { delay: 1400 })
+  .type("Bernardas Kondratavicius", { delay: 1400 })
   .pause(500)
   //.delete(9)
   .go();

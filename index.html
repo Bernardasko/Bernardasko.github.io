@@ -65,13 +65,13 @@
       <!-- Hero -->
       <div class="hero banner">
           <h3>Hi, my name is</h3>
-          <h1><span id="type1"></span></h1>
+          <h1 class="hero-name"><span id="type1"></span></h1>
           <h4>I'm a JavaScript Developer with a passion to learn.</h4>
           <a href="cv.pdf" target="_blank" class="btn">Resume</a>
         </div>
         <div class="icons">
           <!-- <span><i class="fab fa-linkedin"></i></span> -->
-          <span onclick="window.location.href='https://github.com/Bernardasko'"><i class="fab fa-github"></i></span>
+          <span onclick="window.open('https://github.com/Bernardasko', '_blank')"><i class="fab fa-github"></i></span>
         </div>
     </header>
     <!-- Projects -->
@@ -180,11 +180,35 @@
               <span class="icon"><i class="fas fa-user"></i></span>
               <span class="content">
                 <h3>Name</h3>
-                <span>Bernardas Kondratavičius</span>
+                <span>Bernardas Kondratavicius</span>
               </span>
             </div>
+
             <div>
-              <span class="icon github" onclick="window.location.href='https://github.com/Bernardasko'"><i class="fab fa-github"></i></span>
+              <span class="icon"><i class="fas fa-phone"></i></span>
+              <span class="content">
+                <h3>Phone</h3>
+                <span class="phone-number">+370 62 01 5984</span>
+              </span>
+            </div>
+
+            <!-- <div>
+              <div class="hearing">
+                
+              </div>
+              <p>better to communicate in writing due to hearing disability</p>
+            </div> -->
+            
+            <div>
+              <span class="icon"><div class="hearing">
+               </div></span>
+              <span class="content">
+                <span>better to communicate in writing due to hearing disability</span>
+              </span>
+            </div>
+
+            <div>
+              <span class="icon github" onclick="window.open('https://github.com/Bernardasko', '_blank')"><i class="fab fa-github"></i></span>
               <span class="content">
                 <h3>GitHub</h3>
                 <span>Bernardasko</span>
@@ -192,10 +216,17 @@
             </div>
   
             <div>
-              <span class="icon"><i class="fas fa-envelope"></i></span>
+              <span class="icon mail" onclick="window.location.href='mailto:bernardasko@gmail'"><i class="fas fa-envelope"></i></span>
               <span class="content">
                 <h3>Email</h3>
                 <span>bernardasko@gmail.com</span>
+              </span>
+            </div>
+
+            <div>
+              <span class="icon linkedin" onclick="window.open('https://www.linkedin.com/in/bernardaskondratavicius/', '_blank')"><i class="fab fa-linkedin"></i></span>
+              <span class="content">
+                <h3>LinkedIn</h3>
               </span>
             </div>
           </div>
