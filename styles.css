@@ -263,9 +263,7 @@ li {
   margin-top: 2rem;
 }
 
-.hero-name {
-  display: flex;
-}
+
 
 .hero a:hover {
   background-color: transparent;
@@ -299,6 +297,10 @@ li {
 
   .hero h4 {
     font-size: 1.6rem;
+  }
+
+  .hero-name {
+    display: flex;
   }
 }
 
