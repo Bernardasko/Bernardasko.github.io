@@ -506,6 +506,22 @@ a.btn:active,
   width: 62%;
 }
 
+.modal-content-task {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 44%;
+}
+
+.modal-content-api {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 48%;
+}
+
 /* The Close Button */
 .close0,
 .close1,
@@ -603,7 +619,7 @@ a.btn:active,
   color: #024b05;
 }
 
-.github:hover, .mail:hover {
+.github:hover, .mail:hover, .linkedin:hover{
   color: rgb(4, 33, 67);
   cursor: pointer;
 }
